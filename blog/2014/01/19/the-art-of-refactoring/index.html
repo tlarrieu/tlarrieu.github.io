@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Archives - A Developer's Blog</title>
+  <title>The Art of Refactoring - A Developer's Blog</title>
   <meta name="author" content="Thomas Larrieu">
 
   
-  <meta name="description" content=" The Art of Refactoring
-Jan 19 2014 The proper tools to get things done
-Jan 18 2014 ">
+  <meta name="description" content="Refactoring, eventhough many agree upon the fact this is good practice, can get delicate to work with. Since refactoring does not add any feature to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Jan 18 2014 ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tlarrieu.github.io/archives">
+  <link rel="canonical" href="http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="A Developer's Blog" type="application/atom+xml">
@@ -68,18 +66,73 @@ Jan 18 2014 ">
     	<section class="right">
     		<div class="inner-right">
     			<div id="posts">
-    			  	
-	
-<h1><a href="/blog/2014/01/19/the-art-of-refactoring/">The Art of Refactoring</a></h1>
-<time datetime="2014-01-19T13:06:33+01:00" pubdate><span class='month'>Jan</span> <span class='day'>19</span> <span class='year'>2014</span></time>
+    			  	<article class="post">
+    
+  <header>
+    
+      <h1 class="entry-title">The Art of Refactoring</h1>
+    
+    
+      <p class="meta">
+        
 
 
 
-	
-<h1><a href="/blog/2014/01/18/the-proper-tools-to-get-things-done/">The proper tools to get things done</a></h1>
-<time datetime="2014-01-18T22:57:25+01:00" pubdate><span class='month'>Jan</span> <span class='day'>18</span> <span class='year'>2014</span></time>
 
 
+
+
+
+  
+
+
+<time datetime="2014-01-19T13:06:33+01:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://tlarrieu.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Refactoring, eventhough many agree upon the fact this is good practice, can get delicate to work with. Since refactoring does not add any feature to the current codebase, and because you often have “better things to do”, this phase can be postponed forever. The real question is “when is a good time to start refactoring things?”. A commonly accepted maxim states the following :</p>
+
+<blockquote><p>“If it ain&rsquo;t broken, don&rsquo;t fix it.”</p></blockquote>
+
+<!-- more -->
+
+
+<p>Well, that&rsquo;s a start at least. But that&rsquo;s certainly not enough as well : you can not let your development be error-driven — or <a href="http://kriswager.blogspot.fr/2009/01/error-driven-software-development.html">can you</a>? In the previous <a href="/blog/2014/01/18/the-proper-tools-to-get-things-done">article</a>, I was talking about ergonomics. Refactoring is kind of related to that. In fact, any time you feel your are striving with the codebase might be a good time to refactor. I most certainly would add the following sentence :</p>
+
+<blockquote><p>“If your code smells, now is a good time to refactor.”</p></blockquote>
+
+<p>In my opinion, refactoring serves two purposes :</p>
+
+<ul>
+<li>It enhances your code quality</li>
+<li>It forces you to see the code from a higher level, leaving you with a better understanding of the codebase.</li>
+</ul>
+
+</div>
+
+
+</article>
+
+
+        <div class="sharing">
+  
+  
+  
+</div>
+
+
+
+
+<section id="comments">
+    <div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 
 
     			</div>
@@ -96,7 +149,10 @@ Jan 18 2014 ">
       var disqus_shortname = 'tlarrieu';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring/';
+        var disqus_url = 'http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

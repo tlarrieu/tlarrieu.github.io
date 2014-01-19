@@ -3,6 +3,7 @@ layout: post
 title: "The proper tools to get things done"
 date: 2014-01-18 22:57:25 +0100
 comments: true
+tags: tool vim tmux fish ergonomics keyboard
 categories:
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "The Art of Refactoring"
 date: 2014-01-19 13:06:33 +0100
+tags: refactoring codebase ben orenstein
 comments: true
 categories:
 ---

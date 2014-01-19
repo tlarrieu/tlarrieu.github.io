@@ -1,10 +1,9 @@
 ---
-published: false
 layout: post
 title: "The Art of Refactoring"
 date: 2014-01-19 13:06:33 +0100
 comments: true
-categories: 
+categories:
 ---
 
 Refactoring, eventhough many agree upon the fact this is good practice, can get delicate to work with. Since refactoring does not add any feature to the current codebase, and because you often have “better things to do”, this phase can be postponed forever. The real question is “when is a good time to start refactoring things?”. A commonly accepted maxim states the following :
@@ -22,3 +21,8 @@ In my opinion, refactoring serves two purposes :
 * It enhances your code quality
 * It forces you to see the code from a higher level, leaving you with a better understanding of the codebase.
 
+For practical insights about refactoring, I recommend checking those videos out :
+
+Here is a talk from [Ben Orenstein](http://twitter.com/r00k) — one of my favorite Ruby developer around here :  [Refactoring From Good to Great](http://youtu.be/DC-pQPq0acs).
+
+And another one from John Pignata : [Your Refactoring Cheat Sheet](http://youtu.be/q_qdWuCAkd8).

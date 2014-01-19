@@ -4,7 +4,7 @@
   <title><![CDATA[A Developer's Blog]]></title>
   <link href="http://tlarrieu.github.io/atom.xml" rel="self"/>
   <link href="http://tlarrieu.github.io/"/>
-  <updated>2014-01-19T16:13:24+01:00</updated>
+  <updated>2014-01-19T16:14:12+01:00</updated>
   <id>http://tlarrieu.github.io/</id>
   <author>
     <name><![CDATA[Thomas Larrieu]]></name>
@@ -12,32 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[The Art of Refactoring]]></title>
-    <link href="http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring/"/>
-    <updated>2014-01-19T13:06:33+01:00</updated>
-    <id>http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring</id>
-    <content type="html"><![CDATA[<p>Refactoring, eventhough many agree upon the fact this is good practice, can get delicate to work with. Since refactoring does not add any feature to the current codebase, and because you often have “better things to do”, this phase can be postponed forever. The real question is “when is a good time to start refactoring things?”. A commonly accepted maxim states the following :</p>
-
-<blockquote><p>“If it ain&rsquo;t broken, don&rsquo;t fix it.”</p></blockquote>
-
-<!-- more -->
-
-
-<p>Well, that&rsquo;s a start at least. But that&rsquo;s certainly not enough as well : you can not let your development be error-driven — or <a href="http://kriswager.blogspot.fr/2009/01/error-driven-software-development.html">can you</a>? In the previous <a href="http://tlarrieu.github.io/blog/2014/01/18/the-proper-tools-to-get-things-done">article</a>, I was talking about ergonomics. Refactoring is kind of related to that. In fact, any time you feel your are striving with the codebase might be a good time to refactor. I most certainly would add the following sentence :</p>
-
-<blockquote><p>“If your code smells, now is a good time to refactor.”</p></blockquote>
-
-<p>In my opinion, refactoring serves two purposes :</p>
-
-<ul>
-<li>It enhances your code quality</li>
-<li>It forces you to see the code from a higher level, leaving you with a better understanding of the codebase.</li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[The proper tools to get things done]]></title>

@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://tlarrieu.github.io
-title: A developer's blog
+title: A Developer's Blog
 subtitle: My life as a ruby developer
 author: Thomas Larrieu
 simple_search: http://google.com/search
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: thomas.larrieu@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #

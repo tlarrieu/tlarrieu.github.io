@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-Hi, I’m a french Ruby developer, working for a small company called [Shopmium](http://www.shopmium.org).
+Hi, I’m a french Ruby developer, working for an awesome company called [Shopmium](http://www.shopmium.org).
 
 You can find me on [Github](http://github.com/tlarrieu).
 

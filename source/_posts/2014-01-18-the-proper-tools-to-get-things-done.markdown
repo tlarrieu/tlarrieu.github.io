@@ -75,7 +75,7 @@ Those are not the only ones, but they are the most known.
 
 ## Device
 
-Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a "standard" [rubber dome](http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard) keyboard (or on a [scissors switch](http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard) keyboard for those of you who use a laptop). Let's be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to experience comfortable typing ? I definitely do.
+Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a "standard" [rubber dome](http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard) keyboard (or on a [scissors switch](http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard) keyboard for those of you who use a laptop). Let's be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to have a comfortable experience ? I definitely do.
 
 Here are a few resources on that specific topic :
 

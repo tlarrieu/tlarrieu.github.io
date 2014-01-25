@@ -3,7 +3,7 @@ layout: post
 title: "Diving into code"
 date: 2014-01-25 00:10:51 +0100
 comments: true
-published: false
+published: true
 categories:
 ---
 After a month here at [Shopmium](http://www.shopmium.com), I can say I've been

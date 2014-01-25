@@ -4,7 +4,7 @@
   <title><![CDATA[A Developer's Blog]]></title>
   <link href="http://tlarrieu.github.io/atom.xml" rel="self"/>
   <link href="http://tlarrieu.github.io/"/>
-  <updated>2014-01-26T00:50:24+01:00</updated>
+  <updated>2014-01-26T00:51:45+01:00</updated>
   <id>http://tlarrieu.github.io/</id>
   <author>
     <name><![CDATA[Thomas Larrieu]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Diving into code]]></title>
+    <link href="http://tlarrieu.github.io/blog/2014/01/25/diving-into-code/"/>
+    <updated>2014-01-25T00:10:51+01:00</updated>
+    <id>http://tlarrieu.github.io/blog/2014/01/25/diving-into-code</id>
+    <content type="html"><![CDATA[<p>After a month here at <a href="http://www.shopmium.com">Shopmium</a>, I can say I&rsquo;ve been
+through a pretty huge load of codelines.  At first, this might seem to be very
+discouraging : you do not understand what is what, you do not know if your are
+going to break anything.</p>
+
+<p>In this article I&rsquo;ll try to share with you some “techniques” I&rsquo;ve used to get
+through with it and start to be more efficient with this kind of situation.</p>
+
+<!-- more -->
+
+
+<h2>Use your toolkit</h2>
+
+<p>First of all, trust your VCS, be it Git, Mercurial or even SVN. If your are
+not very comfortable with it, now is a good time to learn how to properly use
+it. Maybe not in depth, but at least just enough to be able to revert changes
+you will make. This way, you won&rsquo;t feel bad about breaking anything at least.
+By the way, if this is not already a good practice in your company, always
+work on your own branch, to isolate your work and thus providing yourself with
+extra confidence regarding modifications. And if your company does not use any
+kind of VCS, <strong>get yourself out of there</strong> and find a new one!</p>
+
+<h2>Wreak havoc!</h2>
+
+<p>Now that you get your tools ready to repair any potential mistake, we can
+start breaking things apart. I mean, not destroying the whole codebase. Only
+some selected pieces so that you can mesure the impact of your modification.
+The best way to understand what something does is to watch what happens when
+it&rsquo;s not here anymore. This technique won&rsquo;t work hundred percent of the time,
+but in most cases, it&rsquo;s a quick way to figure out what is what.</p>
+
+<h2>Feel at home</h2>
+
+<p>The final step will be refactoring. Once you&rsquo;re a bit more confident with the
+codebase, start to moves things and reorganise it. You will most likely stumble
+upon pieces of code that are not well factored. Tweak them to enhance both the
+code and your <a href="http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring/">knowledge about it</a>.</p>
+
+<h2>Bonus stage</h2>
+
+<p>I should add that testing is also a great way to get informations about code.
+First, by reading it, you can start to comprehend what it is supposed to do and
+how it should behave. Then, it is also a good way to detect when you have
+broken things around. Using tests during both the “wreak havoc” and the “feel
+at home” phases is pretty useful.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Art of Refactoring]]></title>

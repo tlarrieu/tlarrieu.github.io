@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>A Developer's Blog</title>
+  <title>Diving into code - A Developer's Blog</title>
   <meta name="author" content="Thomas Larrieu">
 
   
@@ -20,7 +20,7 @@ discouraging &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tlarrieu.github.io">
+  <link rel="canonical" href="http://tlarrieu.github.io/blog/2014/01/25/diving-into-code">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="A Developer's Blog" type="application/atom+xml">
@@ -68,15 +68,11 @@ discouraging &hellip;">
     	<section class="right">
     		<div class="inner-right">
     			<div id="posts">
-    			  	<div class="blog-index">
-  
-  
-  
-    <article>
-      
+    			  	<article class="post">
+    
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/01/25/diving-into-code/">Diving Into Code</a></h1>
+      <h1 class="entry-title">Diving Into Code</h1>
     
     
       <p class="meta">
@@ -94,15 +90,15 @@ discouraging &hellip;">
 
 <time datetime="2014-01-25T00:10:51+01:00" pubdate data-updated="true">Jan 25<span>th</span>, 2014</time>
         
-           | <a href="/blog/2014/01/25/diving-into-code/#disqus_thread"
-             data-disqus-identifier="http://tlarrieu.github.io/blog/2014/01/25/diving-into-code/">Comments</a>
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://tlarrieu.github.io">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>After a month here at <a href="http://www.shopmium.com">Shopmium</a>, I can say I&rsquo;ve been
+<div class="entry-content"><p>After a month here at <a href="http://www.shopmium.com">Shopmium</a>, I can say I&rsquo;ve been
 through a pretty huge load of code lines.  At first, this might seem to be very
 discouraging : you do not understand what is what, you do not know if your are
 going to break anything. And I have to say : I&rsquo;m still there. There are tons of
@@ -113,123 +109,66 @@ through with it and start to be more efficient with this kind of situation.
 Bear in mind that those are not silver bullets, only hints to eventually get
 yourself out of troubles.</p>
 
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/25/diving-into-code/">Read on &rarr;</a>
-    </footer>
-  
+<!-- more -->
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/19/the-art-of-refactoring/">The Art of Refactoring</a></h1>
-    
-    
-      <p class="meta">
-        
+<h2>Use your toolkit</h2>
 
+<p>First of all, trust your VCS, be it Git, Mercurial or even SVN. If your are
+not very comfortable with it, now is a good time to learn how to properly use
+it. Maybe not in depth, but at least just enough to be able to revert changes
+you will make. This way, you won&rsquo;t feel bad about breaking anything at least.
+By the way, if this is not already a good practice in your company, always
+work on your own branch, to isolate your work and thus providing yourself with
+extra confidence regarding modifications. And if your company does not use any
+kind of VCS, <strong>get yourself out of there</strong> and find a new one!</p>
 
+<h2>Wreak havoc!</h2>
 
+<p>Now that you get your tools ready to repair any potential mistake, we can
+start breaking things apart. I mean, not destroying the whole codebase. Only
+some selected pieces so that you can mesure the impact of your modification.
+The best way to understand what something does is to watch what happens when
+it&rsquo;s not here anymore. This technique won&rsquo;t work hundred percent of the time,
+but in most cases, it&rsquo;s a quick way to figure out what is what.</p>
 
+<h2>Feel at home</h2>
 
+<p>The final step will be refactoring. Once you&rsquo;re a bit more confident with the
+codebase, start to moves things and reorganise it. You will most likely stumble
+upon pieces of code that are not well factored. Tweak them to enhance both the
+code and your <a href="/blog/2014/01/19/the-art-of-refactoring/">knowledge about it</a>.</p>
 
+<h2>Bonus stage</h2>
 
+<p>I should add that testing is also a great way to get informations about code.
+First, by reading it, you can start to comprehend what it is supposed to do and
+how it should behave. Then, it is also a good way to detect when you have
+broken things around : use them during both the “wreak havoc” and the “feel
+at home” phases.</p>
 
-  
-
-
-<time datetime="2014-01-19T13:06:33+01:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/01/19/the-art-of-refactoring/#disqus_thread"
-             data-disqus-identifier="http://tlarrieu.github.io/blog/2014/01/19/the-art-of-refactoring/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Refactoring, eventhough many agree upon the fact this is good practice, can get delicate to work with. Since refactoring does not add any feature to the current codebase, and because you often have “better things to do”, this phase can be postponed forever. The real question is “when is a good time to start refactoring things?”. A commonly accepted maxim states the following :</p>
-
-<blockquote><p>“If it ain&rsquo;t broken, don&rsquo;t fix it.”</p></blockquote>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/19/the-art-of-refactoring/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/18/the-proper-tools-to-get-things-done/">The Proper Tools to Get Things Done</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-18T22:57:25+01:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/01/18/the-proper-tools-to-get-things-done/#disqus_thread"
-             data-disqus-identifier="http://tlarrieu.github.io/blog/2014/01/18/the-proper-tools-to-get-things-done/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>“ What is a good tool ? ” one might wonder. Here is a definition from <a href="http://en.wikipedia.org/">Wikipedia</a> :</p>
-
-<blockquote><p>“Human factors and ergonomics (HF&amp;E) is a multidisciplinary field incorporating contributions from psychology, engineering, biomechanics, mechanobiology, industrial design, graphic design, statistics, operations research and anthropometry. In essence it is the study of designing equipment and devices that fit the human body and its cognitive abilities.”</p></blockquote>
-
-<p>In short terms, one can say that a good tool is one that both enhances your productivity and increases your comfort.</p>
-
-<p>In this article, I will cover the main tools I use on a daily basis. My intent is not to say that there are no others. Those float my boat, period.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/18/the-proper-tools-to-get-things-done/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a class="archives btn btn-light" href="/blog/archives">Blog Archives</a>
-    
-  </div>
+<p>I have something to confess though : I did not have the chance to use tests for
+work yet.  The part of the code I have been working on is only partially
+covered…</p>
 </div>
 
 
-    
-</aside>
+</article>
+
+
+        <div class="sharing">
+  
+  
+  
+</div>
+
+
+
+
+<section id="comments">
+    <div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
 
 
     			</div>
@@ -246,7 +185,10 @@ yourself out of troubles.</p>
       var disqus_shortname = 'tlarrieu';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://tlarrieu.github.io/blog/2014/01/25/diving-into-code/';
+        var disqus_url = 'http://tlarrieu.github.io/blog/2014/01/25/diving-into-code/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -47,7 +47,7 @@ If you want to learn more about this wonderful text editor, I recommend consulti
 Those are on top of my head, don't be shy and explore the whole interwebz for yourself.
 
 ### Tmux
-Tmux is a **T**erminal **Mu**ltiple**X**er. In short, it means that it transforms your boring single windowed terminal into a rich, split-and-window-ful terminal. But it has more. It can broadcast your current session to any other terminal reachable through your computer. It can be any other opened terminal or an ssh session. It also can save your current session for you to come back later. Finally, you can script it's behaviour to automate certain tasks that you do on a daily basis.
+Tmux is a **T**erminal **Mu**ltiple**X**er. In short, it means that it transforms your boring single windowed terminal into a rich, split-and-window-ful terminal. But it has more. It can broadcast your current session to any terminal able to reach your computer. It can be any other opened terminal on your machine or over a network connection. It can also save your current session for you to come back later. Finally, you can script it's behaviour to automate certain tasks that you do on a daily basis.
 
 Once you get to know it, you can not live without it!
 

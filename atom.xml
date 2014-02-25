@@ -4,7 +4,7 @@
   <title><![CDATA[A Developer's Blog]]></title>
   <link href="http://tlarrieu.github.io/atom.xml" rel="self"/>
   <link href="http://tlarrieu.github.io/"/>
-  <updated>2014-02-03T22:56:39+01:00</updated>
+  <updated>2014-02-25T21:36:10+01:00</updated>
   <id>http://tlarrieu.github.io/</id>
   <author>
     <name><![CDATA[Thomas Larrieu]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sharpening your tools]]></title>
+    <link href="http://tlarrieu.github.io/blog/2014/02/25/sharpening-your-tools/"/>
+    <updated>2014-02-25T19:46:12+01:00</updated>
+    <id>http://tlarrieu.github.io/blog/2014/02/25/sharpening-your-tools</id>
+    <content type="html"><![CDATA[<p>In a recent <a href="http://tlarrieu.github.io/blog/2014/01/18/the-proper-tools-to-get-things-done">article</a>, I
+was talking about tools.  In this one, I will be speaking about sharpening them.</p>
+
+<p>Recently, I was made aware of something terrible : my workflow is <em>clunky</em>. Or
+should I say, not optimized. I often find myself repeating the same operations
+throughout the day, involving lots of keystrokes. And up until now, I did not
+make a big fuss about it.</p>
+
+<!-- more -->
+
+
+<p>Of course, I regularly spent time — and I still do, tailoring my vimrc. Of course
+I have a few aliases in my shell configuration. But I somewhat discovered that I
+was not so much aggressive about diminishing the number of keystrokes. A few
+days ago, I stumbled upon this
+<a href="http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/">podcast</a>.
+And it changed my whole vision about the situation. I already had the opportunity
+to listen to <a href="https://github.com/r00k">Ben</a> talking about this alongside his talks.
+But this did not struck me much, God knows why.</p>
+
+<p>I have aquired the certitude that small things matters. From this day on, I took
+one simple resolution : <em>improve my workflow</em>. Little by little, smoothen and
+take good care of it.</p>
+
+<p>In practice, here is what I do : everytime I notice something wrong about what
+I am doing, something that makes me feel I could do it quicker, I either fix it
+immediately, taking around ten minutes to do so, or write it on my
+“build-an-awesome-workflow-todo-list”. Every morning, I spend ten to twenty
+minutes to remove as much as I can from this list, prior to the morning stand-up,
+right before starting to work.</p>
+
+<p>This has two great impacts on my day : first and foremost, it improves my
+productivity — well, this was kind of intended! — making me more efficient. But
+it has another effect : I start my day on a positive note, no matter what the
+day before was made of. I could have spent an horrible day trying to fix a bug
+that I quiet did not manage to catch yet, and still start the day on the right
+foot.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Diving into code]]></title>

@@ -40,7 +40,7 @@ The purpose of those text objects is for you to apply transformations on it : ba
 
 If you want to learn more about this wonderful text editor, I recommend consulting the following resources :
 
-* [Vimcast](http://vimcast.org)
+* [Vimcast](http://vimcasts.org)
 * [Practical Vim](http://pragprog.com/book/dnvim/practical-vim)
 * [Ben Orenstein's Write Code Faster : Expert Level Vim](http://www.youtube.com/watch?v=SkdrYWhh-8s)
 

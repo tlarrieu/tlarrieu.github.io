@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The proper tools to get things done - A Developer's Blog</title>
+  <meta name="author" content="Thomas Larrieu">
+
+  
+  <meta name="description" content="“ What is a good tool ? ” one might wonder. Here is a definition from Wikipedia : “Human factors and ergonomics (HF&amp;E) is a multidisciplinary &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tlarrieu.github.io/blog/2014/01/18/the-proper-tools-to-get-things-done">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="A Developer's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+
+<body>
+	<div class="container">
+		<aside class="left">
+			<div class="inner-left">
+				<header>
+					<img src="http://www.gravatar.com/avatar/2cd01b78a3a98b9a3d0ae41b20404182?s=300" alt="Gravatar of Thomas Larrieu " title="Gravatar of Thomas Larrieu" class="profilepic" />
+<hgroup>
+  <h1><a href="/">A Developer's Blog</a></h1>
+  
+    <h2 class="subtitle">“Did you try turning it off and on again?”</h2>
+   
+   <h4><a href="/about">About</a></h4>
+</hgroup>
+
+
+				</header>
+				<footer>
+					<script src="https://balloon.io/embed/js/balloon.js" type="text/javascript"></script>
+<p>
+  
+    <a href="http://github.com/tlarrieu" class="btn btn-dark">GitHub</a>
+  
+  
+    <a href="mailto:thomas.larrieu@gmail.com" class="btn btn-dark">Contact Me</a>
+  
+  
+</p>
+
+				</footer>
+			</div>
+		</aside>
+    	<section class="right">
+    		<div class="inner-right">
+    			<div id="posts">
+    			  	<article class="post">
+    
+  <header>
+    
+      <h1 class="entry-title">The Proper Tools to Get Things Done</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-18T22:57:25+01:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://tlarrieu.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>“ What is a good tool ? ” one might wonder. Here is a definition from <a href="http://en.wikipedia.org/">Wikipedia</a> :</p>
+
+<blockquote><p>“Human factors and ergonomics (HF&amp;E) is a multidisciplinary field incorporating contributions from psychology, engineering, biomechanics, mechanobiology, industrial design, graphic design, statistics, operations research and anthropometry. In essence it is the study of designing equipment and devices that fit the human body and its cognitive abilities.”</p></blockquote>
+
+<p>In short terms, one can say that a good tool is one that both enhances your productivity and increases your comfort.</p>
+
+<p>In this article, I will cover the main tools I use on a daily basis. My intent is not to say that there are no others. Those float my boat, period.</p>
+
+<!-- more -->
+
+
+<h1>Tmux / Vim</h1>
+
+<p>OK. This has been spoken of like a zillion time. Let&rsquo;s talk about it a zillion-and-one-th time.</p>
+
+<h2>What are we talking about?</h2>
+
+<h3>Vim</h3>
+
+<p>Vim is a modal text editor. It means that it distinguishes several modes in the process of writing text. Among many modes, Vim lets you choose between :</p>
+
+<ul>
+<li>normal mode</li>
+<li>insert mode</li>
+<li>command mode</li>
+</ul>
+
+
+<p>Those are the three most basics on which others are built. <em>Normal</em> mode is the mode where you can explore and apply transformation (we&rsquo;ll come to that in a minute) to you&rsquo;re file through keyboard shortcuts (single-key or multi-key). <em>Insert</em> mode is your average text editor mode, where you boringly write text down. <em>Command</em> mode is the mode where you can unleash the full power of Vim and use some built-in (or plugged-in) functions.</p>
+
+<p>There is one single statement the sums up best what Vim is all about : the thing you do the most while developing softwares is <strong>editing code</strong>, not <strong>writing</strong> new one. Why not use an editor that focuses on the first aspect?</p>
+
+<p>I could spend a lifetime (almost literally) speaking about Vim. What made me realize what was the true power of Vim though, is the concept of <em>text objects</em>.
+Text objects are  groups of characters that have a semantic connection. For instance, a letter is a text object. A word is a text object too. A sentence is a text object as well. A paragraph is a text object. A&hellip; Well, you get the idea.
+The purpose of those text objects is for you to apply transformations on it : basically you can delete , replace or copy a text object. In fact, anything you can think of when it comes to editing text, you can do it quicker, better and in a more logical (yes, logical, you read correctly) way than with your average text editor.</p>
+
+<p>If you want to learn more about this wonderful text editor, I recommend consulting the following resources :</p>
+
+<ul>
+<li><a href="http://vimcasts.org">Vimcast</a></li>
+<li><a href="http://pragprog.com/book/dnvim/practical-vim">Practical Vim</a></li>
+<li><a href="http://www.youtube.com/watch?v=SkdrYWhh-8s">Ben Orenstein&rsquo;s Write Code Faster : Expert Level Vim</a></li>
+</ul>
+
+
+<p>Those are on top of my head, don&rsquo;t be shy and explore the whole interwebz for yourself.</p>
+
+<h3>Tmux</h3>
+
+<p>Tmux is a <strong>T</strong>erminal <strong>Mu</strong>ltiple<strong>X</strong>er. In short, it means that it transforms your boring single windowed terminal into a rich, split-and-window-ful terminal. But it has more. It can broadcast your current session to any terminal able to reach your computer. It can be any other opened terminal on your machine or over a network connection. It can also save your current session for you to come back later. Finally, you can script it&rsquo;s behaviour to automate certain tasks that you do on a daily basis.</p>
+
+<p>Once you get to know it, you can not live without it!</p>
+
+<p>Here is a 30-ish minutes <a href="http://www.youtube.com/watch?v=9jzWDr24UHQ">talk</a> about how to achieve better productivity using both Vim and Tmux (it is aimed at Ruby developers but you can get some benefits viewing it nonetheless).</p>
+
+<h1>Fish shell</h1>
+
+<p>I do not have much to say about it other than CHECK THIS OUT : <a href="http://fishshell.com/">Fish Shell</a>.
+If you still are not convinced after looking at all this beauty, there is nothing left I can do for you.
+Seriously : GIVE. IT. A. TRY.</p>
+
+<h1>Keyboards</h1>
+
+<h2>Layout</h2>
+
+<p>As you may know or may not know, QWERTY — like AZERTY and all the derivative — is a crappy keyboard layout. It has been specifically designed to make you type slower, in order to overcome technical deficiencies of early typewriters. As of now, in a time when we do not need this twist anymore, there is no reason in the world to keep using it. In fact, you have all the reasons to not use it. The earlier you make the switch, the better.
+I will not lie to you. This will be hard and it might take time before you can even reach half of your current typing fluency. But I promise you will not regret the switch.
+As I am French, I decided to go with BÉPO. This is a french oriented keyboard layout, inspired by projects like dvorak and colemak.</p>
+
+<p>If you want to know more about alternative keyboard layouts, please follow those links :</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">Dvorak</a></li>
+<li><a href="http://colemak.com/">Colemak</a></li>
+<li><a href="http://bepo.fr/wiki/Accueil">Bépo</a></li>
+</ul>
+
+
+<p>Those are not the only ones, but they are the most known.</p>
+
+<h2>Device</h2>
+
+<p>Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a &ldquo;standard&rdquo; <a href="http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard">rubber dome</a> keyboard (or on a <a href="http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard">scissors switch</a> keyboard for those of you who use a laptop). Let&rsquo;s be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to have a comfortable experience ? I definitely do.</p>
+
+<p>Here are a few resources on that specific topic :</p>
+
+<ul>
+<li><a href="http://deskthority.net/">Deskthority</a></li>
+<li><a href="http://geekhack.org/">Geekhack</a></li>
+</ul>
+
+
+<p>You might also want to look into what are called “ergonomic keyboards”. I personally do not like them, but you might.</p>
+
+<p>And for those who wonder, here is my keyboard :</p>
+
+<p><img src="http://i.imgur.com/pN772Dz.jpg" alt="keyboard" /></p>
+
+<p>This is a Poker II (ANSI layout) and yeah, the space bar is upside down — as the two modifiers beside it.</p>
+</div>
+
+
+</article>
+
+
+        <div class="sharing">
+  
+  
+  
+</div>
+
+
+
+
+<section id="comments">
+    <div id="disqus_thread"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+
+
+    			</div>
+    			<footer id="footer">
+    				<p class="credit" style="text-align:center">
+  Copyright &copy; 2014 - Thomas Larrieu. Powered by <a href="http://octopress.org">Octopress</a>
+</p>
+
+
+    			</footer>
+    			
+
+<script type="text/javascript">
+      var disqus_shortname = 'tlarrieu';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://tlarrieu.github.io/blog/2014/01/18/the-proper-tools-to-get-things-done/';
+        var disqus_url = 'http://tlarrieu.github.io/blog/2014/01/18/the-proper-tools-to-get-things-done/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Roboto:400,300' rel='stylesheet' type='text/css'>
+
+
+
+
+
+    		</div>
+    	</section>
+  	</div>
+</body>
+</html>

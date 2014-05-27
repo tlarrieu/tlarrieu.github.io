@@ -18,5 +18,5 @@ The purpose of this blog is to share what I believe is interesting content, be
 it a Ruby-jedi-trick or a cool app that I can't live without.
 
 Since English is not my mother tongue, I might happen to make some grammar /
-spelling mistakes. Deal with it (or let me a note somewhere, I'd be glad to
-correct it).
+spelling mistakes. Deal with it <small>(or leave me a comment somewhere, I'd be glad to
+correct it)</small>.

@@ -5,7 +5,7 @@ date: 2014-08-31 11:42:10 +0200
 comments: true
 categories: 
 ---
-Frow [Wikipedia](http://en.wikipedia.org/wiki/Impostor_syndrome) :
+From [Wikipedia](http://en.wikipedia.org/wiki/Impostor_syndrome) :
 
 > The impostor syndrome, sometimes called impostor phenomenon or fraud syndrome,
 > is a psychological phenomenon in which people are unable to **internalize

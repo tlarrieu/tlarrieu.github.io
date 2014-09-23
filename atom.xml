@@ -4,7 +4,7 @@
   <title><![CDATA[A Developer's Blog]]></title>
   <link href="http://tlarrieu.github.io/atom.xml" rel="self"/>
   <link href="http://tlarrieu.github.io/"/>
-  <updated>2014-08-31T11:47:47+02:00</updated>
+  <updated>2014-09-23T23:19:34+02:00</updated>
   <id>http://tlarrieu.github.io/</id>
   <author>
     <name><![CDATA[Thomas Larrieu]]></name>
@@ -236,9 +236,9 @@ covered…</p>
 
 <p>Those are the three most basics on which others are built. <em>Normal</em> mode is the mode where you can explore and apply transformation (we&rsquo;ll come to that in a minute) to you&rsquo;re file through keyboard shortcuts (single-key or multi-key). <em>Insert</em> mode is your average text editor mode, where you boringly write text down. <em>Command</em> mode is the mode where you can unleash the full power of Vim and use some built-in (or plugged-in) functions.</p>
 
-<p>There is one single statement the sums up best what Vim is all about : the thing you do the most while developing softwares is <strong>editing code</strong>, not <strong>writing</strong> new one. Why not use an editor that focuses on the first aspect?</p>
+<p>There is one single statement that sums up best what Vim is all about : the thing you do the most while developing softwares is <strong>editing code</strong>, not <strong>writing</strong> new one. Why not use an editor that focuses on the first aspect?</p>
 
-<p>I could spend a lifetime (almost literally) speaking about Vim. What made me realize what was the true power of Vim though, is the concept of <em>text objects</em>.
+<p>I could spend a lifetime (almost literally) speaking about Vim. What made me realize what the true power of Vim was though, is the concept of <em>text objects</em>.
 Text objects are  groups of characters that have a semantic connection. For instance, a letter is a text object. A word is a text object too. A sentence is a text object as well. A paragraph is a text object. A&hellip; Well, you get the idea.
 The purpose of those text objects is for you to apply transformations on it : basically you can delete , replace or copy a text object. In fact, anything you can think of when it comes to editing text, you can do it quicker, better and in a more logical (yes, logical, you read correctly) way than with your average text editor.</p>
 
@@ -288,7 +288,9 @@ As I am French, I decided to go with BÉPO. This is a french oriented keyboard l
 
 <h2>Device</h2>
 
-<p>Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a &ldquo;standard&rdquo; <a href="http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard">rubber dome</a> keyboard (or on a <a href="http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard">scissors switch</a> keyboard for those of you who use a laptop). Let&rsquo;s be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to have a comfortable experience ? I definitely do.</p>
+<p>Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a &ldquo;standard&rdquo; <a href="http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard">rubber dome</a> keyboard (or on a <a href="http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard">scissors switch</a> keyboard for those of you who use a laptop).</p>
+
+<p>Let&rsquo;s be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to have a comfortable experience ? I definitely do.</p>
 
 <p>Here are a few resources on that specific topic :</p>
 
@@ -305,6 +307,16 @@ As I am French, I decided to go with BÉPO. This is a french oriented keyboard l
 <p><img src="http://i.imgur.com/pN772Dz.jpg" alt="keyboard" /></p>
 
 <p>This is a Poker II (ANSI layout) and yeah, the space bar is upside down — as the two modifiers beside it.</p>
+
+<p><strong>[Update (2014.09.23)]</strong></p>
+
+<p>A few months ago, I got a new keyboard : the <a href="http://en.wikipedia.org/wiki/Happy_Hacking_Keyboard">HHKB</a>.</p>
+
+<p>Here&rsquo;s a picture of it :</p>
+
+<p><img src="http://i.imgur.com/XrO2gM2.jpg" alt="hhkb" /></p>
+
+<p>Space bar and modifiers around it are still upside down, I&rsquo;m loving it!</p>
 ]]></content>
   </entry>
   

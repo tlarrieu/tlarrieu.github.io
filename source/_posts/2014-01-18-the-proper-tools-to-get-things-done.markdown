@@ -32,9 +32,9 @@ Vim is a modal text editor. It means that it distinguishes several modes in the 
 
 Those are the three most basics on which others are built. *Normal* mode is the mode where you can explore and apply transformation (we'll come to that in a minute) to you're file through keyboard shortcuts (single-key or multi-key). *Insert* mode is your average text editor mode, where you boringly write text down. *Command* mode is the mode where you can unleash the full power of Vim and use some built-in (or plugged-in) functions.
 
-There is one single statement the sums up best what Vim is all about : the thing you do the most while developing softwares is **editing code**, not **writing** new one. Why not use an editor that focuses on the first aspect?
+There is one single statement that sums up best what Vim is all about : the thing you do the most while developing softwares is **editing code**, not **writing** new one. Why not use an editor that focuses on the first aspect?
 
-I could spend a lifetime (almost literally) speaking about Vim. What made me realize what was the true power of Vim though, is the concept of *text objects*.
+I could spend a lifetime (almost literally) speaking about Vim. What made me realize what the true power of Vim was though, is the concept of *text objects*.
 Text objects are  groups of characters that have a semantic connection. For instance, a letter is a text object. A word is a text object too. A sentence is a text object as well. A paragraph is a text object. A... Well, you get the idea.
 The purpose of those text objects is for you to apply transformations on it : basically you can delete , replace or copy a text object. In fact, anything you can think of when it comes to editing text, you can do it quicker, better and in a more logical (yes, logical, you read correctly) way than with your average text editor.
 
@@ -76,7 +76,9 @@ Those are not the only ones, but they are the most known.
 
 ## Device
 
-Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a "standard" [rubber dome](http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard) keyboard (or on a [scissors switch](http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard) keyboard for those of you who use a laptop). Let's be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to have a comfortable experience ? I definitely do.
+Last, but not least in any way, we are going to speak about physical keyboards. Most of you are certainly writing on a "standard" [rubber dome](http://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard) keyboard (or on a [scissors switch](http://en.wikipedia.org/wiki/Keyboard_technology#Scissor-switch_keyboard) keyboard for those of you who use a laptop).
+
+Let's be honest : those are not the best. If you are looking for higher end keyboards, you should look out for either a mechanical keyboard or a capacitive keyboard. First, they last longer. Then, they have a waaaay better feel. Of course, they do come in a higher price as well. But when you are spending something like eight hours a day typing stuff, would not you like to have a comfortable experience ? I definitely do.
 
 Here are a few resources on that specific topic :
 
@@ -90,3 +92,14 @@ And for those who wonder, here is my keyboard :
 ![keyboard](http://i.imgur.com/pN772Dz.jpg)
 
 This is a Poker II (ANSI layout) and yeah, the space bar is upside down — as the two modifiers beside it.
+
+
+**[Update (2014.09.23)]**
+
+A few months ago, I got a new keyboard : the [HHKB](http://en.wikipedia.org/wiki/Happy_Hacking_Keyboard).
+
+Here's a picture of it :
+
+![hhkb](http://i.imgur.com/XrO2gM2.jpg)
+
+Space bar and modifiers around it are still upside down, I'm loving it!

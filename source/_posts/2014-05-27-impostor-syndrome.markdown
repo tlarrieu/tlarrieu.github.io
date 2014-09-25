@@ -20,7 +20,7 @@ made aware of.
 
 <!-- more -->
 
-I've been working for eight months straight here at [Shopmium](www.shopmium.com).
+I've been working for eight months straight here at [Shopmium](http://www.shopmium.com).
 And I have to say, everything has been going pretty smoothly : I've become
 somewhat competent with both Rails and the business the company is involved in.
 I've even been entitled with more responsabilities. I review code and get
